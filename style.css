@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.card {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    border: 14px inset #ff2c2c;
+    border-radius: 20px;
+    background-color:rgb(255, 130, 130) ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s;
+}
+.card-title {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.card-info {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+}
+.card-photo {
+    width: 350px;
+    margin-top: 50px;
+    transition: 0.4s;
+}
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
+.box-text {
+    font-size: 50px;
+    color: rgb(60, 255, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.box-img {
+    width: 60px;
+    transition: 0.4s;
+}
+.box-price {
+    font-size: 50px;
+    color: rgb(216, 216, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.card:hover .card-title{
+    color: cornflowerblue;
+    letter-spacing: 6px;
+}
+.card:hover .box-price{
+    color: rgb(170, 0, 255);
+}
+.card:hover .box-text{
+    color: rgb(0, 255, 204);
+}
+.card:hover .box-img{
+    border-radius: 50%;
+}
+.card:hover .card-photo{
+    border-radius: 50%;
+}
+.card-2 {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    border: 14px inset #5012e0;
+    border-radius: 20px;
+    background-color:rgb(43, 177, 255) ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s;
+}
+.card-title-2 {
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.card-info-2 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+}
+.card-photo-2 {
+    width: 350px;
+    margin-top: 50px;
+    transition: 0.4s;
+}
+.card-box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
+.box-text-2 {
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.box-img-2 {
+    width: 60px;
+    transition: 0.4s;
+}
+.box-price-2 {
+    font-size: 50px;
+    color: rgb(166, 0, 216);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.card-2:hover .card-title-2{
+    color: rgb(255, 0, 0);
+    letter-spacing: 6px;
+}
+.card-2:hover .box-price-2{
+    color: rgb(159, 0, 0);
+}
+.card-2:hover .box-text-2{
+    color: rgb(0, 255, 204);
+}
+.card-2:hover .box-img-2{
+    border-radius: 50%;
+}
+.card-2:hover .card-photo-2{
+    border-radius: 50%;
+}
+table{
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #ece9e0;
+    color: #656665;
+    border-radius: 16px solid #ece9e0;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+th{
+    font-size: 18px;
+    padding: 10px;
+}
+td{
+    background: #f5d7bf;
+    padding: 10px;
+}
